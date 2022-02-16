@@ -101,7 +101,7 @@ h2{
 }
 
 /*Mensagem de vitória*/
-#message p{
+#id-p{
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -113,4 +113,5 @@ h2{
   background-color: #000000;
   color: #FFFFFF;
   padding: 20px;
+  display: none;
 }
