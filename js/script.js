@@ -191,5 +191,5 @@ function declareWinner(winner){
 
   //Exibir mensagem na tela//
   messageText.innerHTML = msg;
-  messageContainer.classList.remove("hide"); //removendo a classe hide//
+  messageContainer.classList.remove("hide"); //removendo a classe hide
 }
