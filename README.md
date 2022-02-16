@@ -1,11 +1,11 @@
 # 🎮 Jogo da Velha
 
-🎮Jogo da Velha: Em andamento ⏳
+### 🎮 Jogo da Velha: Em andamento ⏳
 
-💻 Sobre o Projeto:
+### 💻 Sobre o Projeto:
 
-⚙️ Funcionalidades:
+### ⚙️ Funcionalidades:
 
-🚀 Como executar o projeto:
+### 🕹️ Como executar o projeto:
 
-🛠️ Ferramentas utilizadas no projeto:
+### 🛠️ Ferramentas utilizadas no projeto:
