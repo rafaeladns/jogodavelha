@@ -3,7 +3,7 @@
 ### 🎮 Jogo da Velha: Finalizado ✔️
 
 ### 💻 Sobre o Projeto:
-Jogo da velha feito utilizando o básico de HTML 5, CSS 3 e Javascript puro.
+Jogo da velha feito utilizando o básico de HTML 5, CSS 3 e Javascript.
 
 ### 🕹️ Link para executar o projeto:
 https://rafaeladns.github.io/jogodavelha/
