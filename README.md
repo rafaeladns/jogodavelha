@@ -1,6 +1,6 @@
 # 🎮 Jogo da Velha
 
-### 🎮 Jogo da Velha: Em andamento ⏳
+### 🎮 Jogo da Velha: Finalizado ✔️
 
 ### 💻 Sobre o Projeto:
 
