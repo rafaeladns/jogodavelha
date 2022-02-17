@@ -3,10 +3,9 @@
 ### 🎮 Jogo da Velha: Finalizado ✔️
 
 ### 💻 Sobre o Projeto:
+Jogo da velha feito utilizando o básico de HTML 5, CSS 3 e Javascript puro.
 
-### ⚙️ Funcionalidades:
-
-### 🕹️ Como executar o projeto:
+### 🕹️ Link para executar o projeto:
 
 ### 🛠️ Ferramentas utilizadas no projeto:
 <div style="display: inline_block"><br>
