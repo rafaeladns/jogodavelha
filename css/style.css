@@ -14,6 +14,15 @@ h1{
   margin: 0 10px;
 }
 
+button {
+  background-color: black;
+  color: white;
+  border-radius: 10px!important;
+}
+
+button:hover{
+  color: #c4bb02;
+}
 /*Jogo*/
 #container{
   display: flex;
