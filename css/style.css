@@ -114,3 +114,7 @@ h2{
   color: #FFFFFF;
   padding: 20px;
 }
+
+.hide{
+  display: none !important;
+}

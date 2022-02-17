@@ -5,7 +5,7 @@ let o = document.querySelector(".o");
 let boxes = document.querySelectorAll(".box");
 let buttons = document.querySelectorAll("#button-container button");
 let messageContainer = document.querySelector("#message");
-let messageText = document.querySelector("message p");
+let messageText = document.querySelector("#message p");
 let secondPlayer;
 
 //Criar contador para saber quando vai ser a vez de cada jogador//
@@ -171,6 +171,7 @@ function checkWinCondition() {
     }
   }
   if(counter == 9){
+    declareWinner('Deu velha!');
   }
 }
 
@@ -180,16 +181,31 @@ function declareWinner(winner){
   let scoreboardO = document.querySelector("#scoreboard-2");
   let msg = '';
   if(winner == 'x'){
-    scoreboardX.textContent = parseInt(scoreboardX.textContent) + 1; // transformar a string em número inteiro e somar mais um ao placar//
+    scoreboardX.textContent = parseInt(scoreboardX.textContent) + 1;
     msg = 'O Jogador 1 venceu!';
+    //transformou o texto 0 que era uma string em número inteiro e somou + 1 ao placar//
   }else if(winner == 'o'){
     scoreboardO.textContent = parseInt(scoreboardO.textContent) + 1;
-    msg = 'O Jogador 2 venceu!'
-  }else{ //casp de velha//
-    msg = 'Deu velha!';
+    msg = 'O Jogador 2 venceu!';
+  }else{ //caso de velha//
+    msg = 'Deu Velha!';
   }
 
   //Exibir mensagem na tela//
   messageText.innerHTML = msg;
-  messageContainer.classList.remove("hide"); //removendo a classe hide
+  messageContainer.classList.remove("hide");
+
+  //esconde mensagem//
+  setTimeout(function(){
+    messageContainer.classList.add("hide");
+  }, 3000);
+
+  //zerar as jogadas//
+  player1 = 0;
+  player2 = 0;
+  //remove x e bolinha marcados//
+  let boxesToRemove = document.querySelectorAll(".box div");
+  for(let i = 0; i < boxesToRemove.length; i++){
+    boxesToRemove[i].parentNode.removeChild(boxesToRemove[i]);
+  }
 }
